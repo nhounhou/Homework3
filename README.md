@@ -2,6 +2,17 @@
 
 The intent of this Homework is to create a Password Generator according to the following acceptance Criteria
 
+# Table of Content
+- [Acceptance Criteria](#acceptance-criteria)
+- [Links](#links)
+- [Mock-Up](#mock-up)
+- [My Design](#mu-design)
+- [My Choice](#my-choice)
+- [FlowChart Diagrams](#flowchart-diagrams)
+- [Checks and Balances](#checks-and-balances)
+- [Results](#results)
+- [Errors](#errors)
+
 # Acceptance Criteria
 ```
 GIVEN I need a new, secure password
@@ -20,6 +31,11 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
+
+## Links
+- GitHub Repo: [https://github.com/nhounhou/PasswordGenerator]
+- Live Deployement: [https://nhounhou.github.io/PasswordGenerator/]
+
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
@@ -34,7 +50,7 @@ The following image shows the web application's appearance and functionality:
 I choose not to use the ``Prompt`` and ``Confirm`` commands, as it was not aesthetically appealing to me. But I left the coding of these lines in comments in ``Script.js`` file.
 I choose to create a ``Form`` and use the ``Checkbox`` and ``Text`` element to get the user password criteria selection.
 
-## FlowChart diagrams
+## FlowChart Diagrams
 
 ![FlowChart](./assets/FlowChart.jpg)
 
